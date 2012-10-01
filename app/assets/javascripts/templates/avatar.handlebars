@@ -1,0 +1,14 @@
+<dl>
+  <dt class="email">Email</dt>
+  <dd>{{email}}</dd>
+
+  <dt class="url">URL</dt>
+  <dd>
+    <ul>
+      <li class="png"><a {{bindAttr href="urlPng"}}>{{urlPng}}</a></li>
+      <li class="jpg"><a {{bindAttr href="urlJpg"}}>{{urlJpg}}</a></li>
+    </ul>
+  </dd>
+</dl>
+
+<img {{bindAttr src="url"}}></img>

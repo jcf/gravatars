@@ -8,4 +8,6 @@ Avatar::Application.configure do
   config.assets.digest = true
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
+
+  config.ember.variant = :production
 end

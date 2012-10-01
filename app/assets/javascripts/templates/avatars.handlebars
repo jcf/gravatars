@@ -1,0 +1,7 @@
+{{#view Avatar.FormView}}
+  {{view Em.TextField valueBinding="email"}}
+  <button
+    {{bindAttr disabled="controller.preventsSubmit"}}>Get it</button>
+{{/view}}
+
+{{outlet}}

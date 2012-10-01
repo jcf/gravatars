@@ -18,5 +18,7 @@ module Avatar
     config.active_record.whitelist_attributes = true
     config.assets.enabled = true
     config.assets.version = '1.0'
+
+    config.ember.variant = :development
   end
 end
