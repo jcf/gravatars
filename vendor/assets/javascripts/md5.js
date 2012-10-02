@@ -3,6 +3,10 @@
    * Created by Joseph Myers.
    *
    * http://www.myersdaily.org/joseph/javascript/md5-text.html
+   *
+   * Modified by James Conroy-Finn.
+   *
+   * - Wrap in an anonymous function and only export the `md5` function.
    */
   function md5cycle(x, k) {
     var a = x[0], b = x[1], c = x[2], d = x[3];
