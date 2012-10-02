@@ -1,9 +1,3 @@
-# avatar
+# Gravatars
 
-## TODO
-
-- Setup Travis CI
-- Setup Code Climate
-- Write some tests
-- Write some code
-- Celebrate
+**Ember.js powered Gravatar URL generator**
